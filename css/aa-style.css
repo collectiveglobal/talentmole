@@ -10,3 +10,7 @@ img.w-100 {
     box-shadow: 1px 1px 10px #abc;
     max-width: 90%;
 }
+
+.cta-section--l1 .newsletter-form {
+    max-width: 680px;
+}
