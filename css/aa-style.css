@@ -14,3 +14,7 @@ img.w-100 {
 .cta-section--l1 .newsletter-form {
     max-width: 680px;
 }
+
+div.spacer {
+    height: 3rem;
+}
