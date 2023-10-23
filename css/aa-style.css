@@ -18,3 +18,11 @@ img.w-100 {
 div.spacer {
     height: 3rem;
 }
+
+.bg-tm-blue {
+    background: #0e5091;
+}
+.btn-tm-blue {
+    background-color: #0e5091;
+    border-color: #0e5091;
+}
