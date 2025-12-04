@@ -2,7 +2,7 @@
 export const blogPosts = [
   {
     slug: 'the-data-deluge',
-    title: 'The Data Deluge: Why Canadian HR Teams Are Drowning in Interview Information',
+    title: 'The Data Deluge Why Canadian HR Teams Are Drowning in Interview Information',
     excerpt: 'The Canadian job market is booming, but it comes at a cost. HR departments are overwhelmed with applicant data, making it nearly impossible to find the right fit. Here is how to navigate the flood.',
     content: `
       <p>The Canadian job market, particularly in burgeoning tech hubs like Toronto, Vancouver, and Montreal, is experiencing unprecedented growth. While this signals a healthy economy, it presents a significant challenge for Human Resources departments. A single job posting for a desirable role can attract hundreds, sometimes thousands, of applicants. A 2023 report from the HR Council of Canada found that a staggering 78% of HR managers feel overwhelmed by the sheer volume of data they handle during the recruitment process. This isn't just about resumes; it's a deluge of cover letters, portfolio links, screening call notes, and assessment results that creates a digital mountain of information for every open position.</p>
@@ -21,7 +21,7 @@ export const blogPosts = [
   },
   {
     slug: 'beyond-keywords-soft-skills',
-    title: 'Beyond Keywords: Why Soft Skills are the New Hiring Currency in Canada',
+    title: 'Beyond Keywords Why Soft Skills are the New Hiring Currency in Canada',
     excerpt: 'Technical skills can be taught, but attitude, communication, and adaptability are invaluable. Discover why Canadian companies are prioritizing soft skills and how you can spot them earlier in the hiring process.',
     content: `
       <p>For years, the recruitment game in Canada was dominated by keywords and technical qualifications. An Applicant Tracking System (ATS) could quickly tell you if a candidate knew Python or was a certified project manager. But as the workplace evolves, especially with the rise of collaborative and remote environments, companies are realizing a hard truth: technical skills alone don't build a great team. A recent study by Deloitte revealed that 92% of talent professionals and hiring managers believe soft skills are as important or even more important than hard skills. This is particularly true in Canada's service and knowledge-based economy.</p>
@@ -29,7 +29,7 @@ export const blogPosts = [
       <h3 class="mt-8 mb-4 text-2xl font-semibold">The Limits of a Resume</h3>
       <p>How do you quantify "excellent communication" or "strong problem-solving abilities" on a one-page resume? You can't. Candidates can list these traits, but a resume provides no proof. This leaves recruiters to guess, hoping to uncover these qualities during a time-consuming interview process. Often, by the time a mismatch in soft skills is discovered, significant resources have already been invested.</p>
       
-      <h3 class="mt-8 mb-4 text-2xl font-semibold">Video Introductions: The Soft Skill Litmus Test</h3>
+      <h3 class="mt-8 mb-4 text-2xl font-semibold">Video Introductions The Soft Skill Litmus Test</h3>
       <p>This is where TalentMole offers a transformative solution. By asking candidates for a short video introduction, you move beyond the flat, text-based world of resumes. In just 60-90 seconds, you can observe a candidate's communication style, their enthusiasm for the role, their ability to articulate their thoughts, and their overall professional demeanor. It's a powerful, authentic glimpse into the person behind the paper.</p>
 
       <h3 class="mt-8 mb-4 text-2xl font-semibold">Let AI Find the Signals</h3>
@@ -40,7 +40,7 @@ export const blogPosts = [
   },
   {
     slug: 'hiring-for-hybrid-future',
-    title: 'Hiring for the Hybrid Future: Finding the Right Cultural Fit Remotely',
+    title: 'Hiring for the Hybrid Future Finding the Right Cultural Fit Remotely',
     excerpt: 'As Canadian workplaces embrace hybrid models, assessing cultural fit has never been more challenging. Learn how to look beyond the screen and build a cohesive team, no matter where they work.',
     content: `
       <p>The shift to hybrid and fully remote work models has been one of the most significant workplace transformations in modern Canadian history. While offering flexibility, it has introduced a new set of challenges for recruiters. Chief among them is how to accurately assess a candidate's cultural fit when you can't meet them in person. Team dynamics, communication styles, and personal drive are difficult to gauge through emails and resumes alone, yet they are critical for a thriving remote team.</p>
@@ -59,7 +59,7 @@ export const blogPosts = [
   },
   {
     slug: 'smarter-not-harder-ai-video-screening',
-    title: 'Smarter, Not Harder: How AI is Revolutionizing Video Screening for Canadian Recruiters',
+    title: 'Smarter Not Harder How AI is Revolutionizing Video Screening for Canadian Recruiters',
     excerpt: 'The promise of video introductions was often outweighed by the time it took to watch them. Now, AI is flipping the script, turning hours of footage into actionable insights in minutes.',
     content: `
       <p>Video interviews and introductions have long been touted as the future of recruitment. They promise a deeper connection and more insight than a resume ever could. But for many Canadian HR teams, the reality has been a logistical nightmare. Faced with hundreds of applications, who has the time to watch hours upon hours of video footage? The sheer volume has made this powerful tool impractical at the top of the funnel—until now.</p>
@@ -67,7 +67,7 @@ export const blogPosts = [
       <h3 class="mt-8 mb-4 text-2xl font-semibold">The Problem with Manual Video Review</h3>
       <p>A recruiter's time is their most valuable asset. Manually reviewing 100 two-minute videos equates to over three hours of non-stop watching. It's monotonous, difficult to standardize, and hard to recall specific details from one candidate to the next. The potential for bias also increases, as fatigue sets in and snap judgments are made. The very tool meant to provide deeper insight becomes just another mountain of data to climb.</p>
       
-      <h3 class="mt-8 mb-4 text-2xl font-semibold">TalentMole: AI-Powered Highlight Reels</h3>
+      <h3 class="mt-8 mb-4 text-2xl font-semibold">TalentMole AI-Powered Highlight Reels</h3>
       <p>This is the exact problem TalentMole was built to solve. We leverage AI to do the heavy lifting. Our platform intelligently processes hundreds of candidate videos and automatically creates a 'magic montage'—a highlight reel that condenses the most relevant moments from all applicants into one easy-to-watch video. Instead of sitting through full introductions, you get a 10-minute supercut of the best moments from your top contenders.</p>
 
       <h3 class="mt-8 mb-4 text-2xl font-semibold">An Enjoyable and Efficient Experience</h3>
