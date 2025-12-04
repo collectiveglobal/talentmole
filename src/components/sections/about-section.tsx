@@ -17,7 +17,7 @@ export function AboutSection() {
       color: "bg-ice-cold",
     },
     {
-      icon: <Timer className="w-8 h-8" />,
+      icon: <img src="https://talentmole.com/image/svg/money-coins.svg" alt="Time Saved Icon" className="absolute -right-2 -bottom-2 w-16 h-16" />,
       title: "Time Saved",
       description: "Get in tune with the reality of a candidate without spending more time screening.",
       color: "bg-anakiwaap",
