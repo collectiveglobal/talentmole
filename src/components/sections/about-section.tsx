@@ -23,22 +23,9 @@ const athleticsIcon = `
 `;
 
 export function AboutSection() {
-  const analyticsIconImage = PlaceHolderImages.find(img => img.id === 'hero-shape-3');
-
   const services = [
     {
-      icon: analyticsIconImage ? (
-        <Image
-          src={analyticsIconImage.imageUrl}
-          alt={analyticsIconImage.description}
-          data-ai-hint={analyticsIconImage.imageHint}
-          width={32}
-          height={32}
-          className="object-contain"
-        />
-      ) : (
-        <div dangerouslySetInnerHTML={{ __html: athleticsIcon }} />
-      ),
+      icon: <div dangerouslySetInnerHTML={{ __html: athleticsIcon }} />,
       title: "Hard Analytics",
       description: "You still receive the numbers you need to effectively screen in bulk.",
       color: "bg-golden-tainoi",
