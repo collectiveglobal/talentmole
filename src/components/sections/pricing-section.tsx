@@ -85,7 +85,7 @@ export function PricingSection() {
                     <span className="text-lg">/ Month</span>
                  </div>
               </div>
-              <ul className={`flex-grow space-y-4 py-8 ${plan.primary ? '' : 'text-muted-foreground'}`}>
+              <ul className={`flex-grow space-y-4 py-8 ${plan.primary ? '' : 'text-gray-600'}`}>
                 {plan.features.map((feature, i) => (
                   <li key={i}>{feature}</li>
                 ))}
