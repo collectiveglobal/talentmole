@@ -27,8 +27,6 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   }
 
   const image = PlaceHolderImages.find((img) => img.id === post.imageId);
-  const authorAvatar = PlaceHolderImages.find(img => img.id === 'testimonial-avatar-2');
-
 
   return (
     <article className="py-16 md:py-24">
@@ -41,24 +39,9 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           Back to Blog
         </Link>
         
-        <h1 className="font-headline mb-4 text-4xl font-bold tracking-tight text-primary md:text-5xl">
+        <h1 className="font-headline mb-8 text-4xl font-bold tracking-tight text-primary md:text-5xl">
           {post.title}
         </h1>
-
-        <div className="mb-8 flex items-center space-x-4 text-sm text-muted-foreground">
-          <div className="flex items-center gap-2">
-            <Avatar className="h-8 w-8">
-              {authorAvatar && <AvatarImage src={authorAvatar.imageUrl} alt={post.author} />}
-              <AvatarFallback>{post.author.charAt(0)}</AvatarFallback>
-            </Avatar>
-            <span>{post.author}</span>
-          </div>
-          <span className="text-muted-foreground/50">|</span>
-          <div className="flex items-center gap-2">
-            <Calendar className="h-4 w-4" />
-            <span>{post.date}</span>
-          </div>
-        </div>
         
         {image && (
           <div className="relative mb-8 aspect-video w-full overflow-hidden rounded-lg shadow-lg">

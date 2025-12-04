@@ -53,10 +53,7 @@ export default function BlogPage() {
                     </CardTitle>
                     <CardDescription>{post.excerpt}</CardDescription>
                   </CardContent>
-                  <CardFooter className="flex items-center justify-between p-6 pt-0">
-                     <div className="text-sm text-muted-foreground">
-                        <span>{post.author}</span> &middot; <span>{post.date}</span>
-                    </div>
+                  <CardFooter className="flex items-center justify-end p-6 pt-0">
                     <div className="flex items-center text-sm font-medium text-primary opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                       Read More <ArrowRight className="ml-1 h-4 w-4" />
                     </div>
