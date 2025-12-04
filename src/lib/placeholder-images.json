@@ -1,3 +1,118 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-video-player",
+      "description": "A mock video player showing several candidate profile videos.",
+      "imageUrl": "https://images.unsplash.com/photo-1758612897213-fbe111d74c8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx2aWRlbyUyMHBsYXllciUyMGNhbmRpZGF0ZXN8ZW58MHx8fHwxNzY0ODM4NTEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "video player candidates"
+    },
+    {
+      "id": "bulk-screening-dashboard",
+      "description": "An image of a dashboard for bulk candidate screening.",
+      "imageUrl": "https://images.unsplash.com/photo-1758411898021-ef0dadaaa295?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkYXNoYm9hcmQlMjBpbnRlcmZhY2V8ZW58MHx8fHwxNzY0ODIzNzA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dashboard interface"
+    },
+    {
+      "id": "how-it-works-1",
+      "description": "Illustration for 'Create your profile' step.",
+      "imageUrl": "https://images.unsplash.com/photo-1675897634504-bf03f1a2a66a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwcm9maWxlJTIwY3JlYXRpb258ZW58MHx8fHwxNzY0ODM4NTEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "profile creation"
+    },
+    {
+      "id": "how-it-works-2",
+      "description": "Illustration for 'Record your video' step.",
+      "imageUrl": "https://images.unsplash.com/photo-1543242594-c8bae8b9e708?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dmlkZW8lMjByZWNvcmRpbmd8ZW58MHx8fHwxNzY0ODM4NTEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "video recording"
+    },
+    {
+      "id": "how-it-works-3",
+      "description": "Illustration for 'Apply for jobs' step.",
+      "imageUrl": "https://images.unsplash.com/photo-1635350736475-c8cef4b21906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxqb2IlMjBhcHBsaWNhdGlvbnxlbnwwfHx8fDE3NjQ4Mzg1MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "job application"
+    },
+    {
+      "id": "for-talents-image",
+      "description": "An image representing talented individuals.",
+      "imageUrl": "https://images.unsplash.com/photo-1620216464337-69f08c564cf1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoYXBweSUyMGRldmVsb3BlcnxlbnwwfHx8fDE3NjQ4Mzg1MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy developer"
+    },
+    {
+      "id": "for-companies-image",
+      "description": "An image representing companies and recruitment teams.",
+      "imageUrl": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyZWNydWl0bWVudCUyMG1lZXRpbmd8ZW58MHx8fHwxNzY0ODM4NTEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "recruitment meeting"
+    },
+    {
+      "id": "testimonial-avatar-1",
+      "description": "Avatar for the first testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1546961329-78bef0414d7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NDgwMjY3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "testimonial-avatar-2",
+      "description": "Avatar for the second testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQ3NTYxMDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "testimonial-avatar-3",
+      "description": "Avatar for the third testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1531123414780-f74242c2b052?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0NzYwNjA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "blog-thumb-1",
+      "description": "Thumbnail for the first blog post.",
+      "imageUrl": "https://images.unsplash.com/photo-1623177623442-979c1e42c255?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBvZmZpY2V8ZW58MHx8fHwxNzY0ODMzNjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "blog-thumb-2",
+      "description": "Thumbnail for the second blog post.",
+      "imageUrl": "https://images.unsplash.com/photo-1622675363311-3e1904dc1885?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3NjQ3MzU1NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "team collaboration"
+    },
+    {
+      "id": "blog-thumb-3",
+      "description": "Thumbnail for the third blog post.",
+      "imageUrl": "https://images.unsplash.com/photo-1669052700037-db884b37b2d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0ZWNoJTIwY29kZXxlbnwwfHx8fDE3NjQ3NzYwMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech code"
+    },
+    {
+      "id": "blog-thumb-4",
+      "description": "Thumbnail for the fourth blog post.",
+      "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxidXNpbmVzcyUyMG1lZXRpbmd8ZW58MHx8fHwxNzY0NzQwOTkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business meeting"
+    },
+    {
+      "id": "company-logo-1",
+      "description": "Logo for a trusted company.",
+      "imageUrl": "https://images.unsplash.com/photo-1760037034804-2dce280659e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWluaW1hbGlzdCUyMGxvZ298ZW58MHx8fHwxNzY0NzYzNTUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "minimalist logo"
+    },
+    {
+      "id": "company-logo-2",
+      "description": "Logo for a trusted company.",
+      "imageUrl": "https://images.unsplash.com/photo-1662057168154-89300791ad6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWNoJTIwbG9nb3xlbnwwfHx8fDE3NjQ4MjAxMjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech logo"
+    },
+    {
+      "id": "company-logo-3",
+      "description": "Logo for a trusted company.",
+      "imageUrl": "https://images.unsplash.com/photo-1754837369018-ff35655d126f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMGxvZ298ZW58MHx8fHwxNzY0Nzc4NTg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract logo"
+    },
+    {
+      "id": "company-logo-4",
+      "description": "Logo for a trusted company.",
+      "imageUrl": "https://images.unsplash.com/photo-1669633971142-99954984ca8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdGFydHVwJTIwbG9nb3xlbnwwfHx8fDE3NjQ3NDYxMDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "startup logo"
+    },
+    {
+      "id": "company-logo-5",
+      "description": "Logo for a trusted company.",
+      "imageUrl": "https://images.unsplash.com/photo-1691737831143-d092198a4354?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxnZW9tZXRyaWMlMjBsb2dvfGVufDB8fHx8MTc2NDc1NDQ5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "geometric logo"
+    }
+  ]
 }
