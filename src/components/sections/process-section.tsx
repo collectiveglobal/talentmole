@@ -26,7 +26,7 @@ export function ProcessSection() {
                 <div className="grid md:grid-cols-12 gap-8 items-center">
                     <div className="md:col-span-4 space-y-6 text-center md:text-left">
                         <p className="text-sm font-semibold uppercase opacity-70">The Process</p>
-                        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+                        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl font-headline">
                             TalentMole works for both parties
                         </h2>
                         <p className="text-lg opacity-80">
@@ -41,7 +41,7 @@ export function ProcessSection() {
                             {steps.map(step => (
                                 <div key={step.number} className="text-center md:text-left group">
                                     <div className="mx-auto md:mx-0 w-16 h-16 rounded-full border-2 border-white/50 flex items-center justify-center mb-4 transition-colors duration-300 bg-white group-hover:bg-deep-orange group-hover:border-deep-orange">
-                                        <span className="text-2xl font-bold text-deep-orange transition-colors duration-300 group-hover:text-white">{step.number}</span>
+                                        <span className="text-2xl font-bold text-tm-blue transition-colors duration-300 group-hover:text-white">{step.number}</span>
                                     </div>
                                     <h3 className="font-semibold text-lg mb-2">{step.title}</h3>
                                     <p className="text-sm opacity-80">{step.description}</p>
