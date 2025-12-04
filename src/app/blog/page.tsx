@@ -8,7 +8,7 @@ import { Badge } from '@/components/ui/badge';
 
 export const metadata = {
   title: 'Blog | Talent Mole',
-  description: 'Insights and articles on talent acquisition, career growth, and the future of work.',
+  description: 'Explore the latest trends in HR and AI-powered recruitment. Stay ahead with our expert analysis on the Canadian job market.',
 };
 
 export default function BlogPage() {
@@ -20,10 +20,10 @@ export default function BlogPage() {
       <div className="container mx-auto px-4 py-16 md:px-6 md:py-24">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="font-headline text-4xl font-bold tracking-tight text-primary sm:text-5xl">
-            Talent & Company Insights
+            The Future of HR: AI & Recruitment Insights
           </h1>
           <p className="mt-4 text-lg text-muted-foreground">
-            Our latest articles, interviews, and thoughts on the future of work.
+            Explore the latest trends in HR and AI-powered recruitment. Stay ahead with our expert analysis on the Canadian job market.
           </p>
         </div>
 
