@@ -57,7 +57,7 @@
     {
       "id": "logo-dark",
       "description": "TalentMole dark logo",
-      "imageUrl": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjQ4MzY0MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://talentmole.com/image/png/logo-dark.png",
       "imageHint": "company logo"
     },
     {
@@ -65,6 +65,36 @@
       "description": "TalentMole white logo",
       "imageUrl": "https://images.unsplash.com/photo-1562705121-e624542c7b9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29tcGFueSUyMGxvZ298ZW58MHx8fHwxNzY0ODM2NDExfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "company logo"
+    },
+    {
+      "id": "blog-thumb-1",
+      "description": "A person in a video call for a remote interview",
+      "imageUrl": "https://images.unsplash.com/photo-1764160750438-0b119145f4a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmVtb3RlJTIwaW50ZXJ2aWV3fGVufDB8fHx8MTc2NDgzOTEyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "remote interview"
+    },
+    {
+      "id": "blog-thumb-2",
+      "description": "A developer portfolio website on a laptop screen",
+      "imageUrl": "https://images.unsplash.com/photo-1554306274-f23873d9a26c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkZXZlbG9wZXIlMjBwb3J0Zm9saW98ZW58MHx8fHwxNzY0ODM5MTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "developer portfolio"
+    },
+    {
+      "id": "blog-thumb-3",
+      "description": "A group of diverse people in a meeting, representing culture fit",
+      "imageUrl": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3NjQ3MzU1NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "team collaboration"
+    },
+    {
+      "id": "blog-thumb-4",
+      "description": "A person writing in a notebook, crafting questions",
+      "imageUrl": "https://images.unsplash.com/photo-1739858446889-b20d63614d73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3cml0aW5nJTIwcXVlc3Rpb25zfGVufDB8fHx8MTc2NDgzOTEyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "writing questions"
+    },
+    {
+      "id": "testimonial-avatar-2",
+      "description": "Avatar of a person for a testimonial",
+      "imageUrl": "https://images.unsplash.com/photo-1521119989659-a83eee488004?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQ3NjA2MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
     }
   ]
 }
