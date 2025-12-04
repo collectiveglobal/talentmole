@@ -48,6 +48,12 @@ export default {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
+        'tm-blue': 'hsl(var(--tm-blue))',
+        'electric-violet': 'hsl(var(--electric-violet))',
+        'torch-red': 'hsl(var(--torch-red))',
+        'golden-tainoi': 'hsl(var(--golden-tainoi))',
+        'ice-cold': 'hsl(var(--ice-cold))',
+        'anakiwaap': 'hsl(var(--anakiwaap))',
         chart: {
           '1': 'hsl(var(--chart-1))',
           '2': 'hsl(var(--chart-2))',
@@ -95,5 +101,8 @@ export default {
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [
+    require('tailwindcss-animate'),
+    require('@tailwindcss/aspect-ratio'),
+  ],
 } satisfies Config;

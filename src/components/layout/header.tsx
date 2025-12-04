@@ -14,11 +14,10 @@ import {
 
 
 const navLinks = [
-  { href: '/#how-it-works', label: 'How it works' },
-  { href: '/#for-talents', label: 'For Talents' },
-  { href: '/#for-companies', label: 'For Companies' },
-  { href: '/blog', label: 'Blog' },
-  { href: '/content-assistant', label: 'AI Assistant' },
+  { href: '/#about', label: 'About' },
+  { href: '/#features', label: 'Features' },
+  { href: '/#testimonials', label: 'Testimonials' },
+  { href: '/#pricing', label: 'Pricing' },
 ];
 
 export function Header() {
@@ -70,9 +69,8 @@ export function Header() {
           ))}
         </nav>
         <div className="hidden items-center gap-4 md:flex">
-          <Button variant="ghost">Log in</Button>
-          <Button asChild>
-            <Link href="/get-started">Get Started</Link>
+          <Button variant="ghost" asChild>
+            <Link href="#start">Get Started</Link>
           </Button>
         </div>
         <div className="md:hidden">
@@ -103,9 +101,8 @@ export function Header() {
                   ))}
                 </nav>
                 <div className="mt-auto flex flex-col gap-4">
-                  <Button variant="outline" size="lg">Log in</Button>
                   <Button asChild size="lg">
-                    <Link href="/get-started" onClick={() => setIsMobileMenuOpen(false)}>Get Started</Link>
+                    <Link href="#start" onClick={() => setIsMobileMenuOpen(false)}>Get Started</Link>
                   </Button>
                 </div>
               </div>

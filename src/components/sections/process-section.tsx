@@ -1,0 +1,56 @@
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+
+const steps = [
+    {
+        number: "1",
+        title: "Candidate Video",
+        description: "Shot on any device, still provides brand and tagging control."
+    },
+    {
+        number: "2",
+        title: "Magic Montage",
+        description: "TalentMole automatically collates, tags & segments all applications."
+    },
+    {
+        number: "3",
+        title: "Watch & Shortlist",
+        description: "All videos turned into 10-minute segments you can scan through."
+    }
+];
+
+export function ProcessSection() {
+    return (
+        <section className="py-20 md:py-24 bg-tm-blue dark-mode-texts">
+            <div className="container mx-auto px-4 md:px-6">
+                <div className="grid md:grid-cols-12 gap-8 items-center">
+                    <div className="md:col-span-4 space-y-6 text-center md:text-left">
+                        <p className="text-sm font-semibold uppercase opacity-70">The Process</p>
+                        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+                            TalentMole works for both parties
+                        </h2>
+                        <p className="text-lg opacity-80">
+                            TalentMole retains a quality pre-boarding experience through candidate personalisation
+                        </p>
+                        <Button asChild className="bg-torch-red hover:bg-torch-red/90 text-white rounded-full px-8">
+                            <Link href="#start">Get Started</Link>
+                        </Button>
+                    </div>
+                    <div className="md:col-span-8">
+                        <div className="grid sm:grid-cols-3 gap-8">
+                            {steps.map(step => (
+                                <div key={step.number} className="text-center md:text-left">
+                                    <div className="mx-auto md:mx-0 w-16 h-16 rounded-full border-2 border-white/50 flex items-center justify-center mb-4">
+                                        <span className="text-2xl font-bold text-torch-red">{step.number}</span>
+                                    </div>
+                                    <h3 className="font-semibold text-lg mb-2">{step.title}</h3>
+                                    <p className="text-sm opacity-80">{step.description}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}
