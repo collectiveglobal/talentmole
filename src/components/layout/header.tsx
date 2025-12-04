@@ -18,6 +18,7 @@ const navLinks = [
   { href: '/#features', label: 'Features' },
   { href: '/#testimonials', label: 'Testimonials' },
   { href: '/#pricing', label: 'Pricing' },
+  { href: '/blog', label: 'Blog' },
 ];
 
 export function Header() {
@@ -113,5 +114,3 @@ export function Header() {
     </header>
   );
 }
-
-    

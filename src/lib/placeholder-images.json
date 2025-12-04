@@ -87,7 +87,7 @@
     {
       "id": "blog-thumb-1",
       "description": "A person in a video call for a remote interview",
-      "imageUrl": "https://images.unsplash.com/photo-1764160750438-0b119145f4a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmVtb3RlJTIwaW50ZXJ2aWV3fGVufDB8fHx8MTc2NDgzOTEyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZW1vdGUlMjBpbnRlcnZpZXd8ZW58MHx8fHwxNzY1Mjc5NzM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "remote interview"
     },
     {
@@ -107,6 +107,12 @@
       "description": "A person writing in a notebook, crafting questions",
       "imageUrl": "https://images.unsplash.com/photo-1739858446889-b20d63614d73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3cml0aW5nJTIwcXVlc3Rpb25zfGVufDB8fHx8MTc2NDgzOTEyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "writing questions"
+    },
+    {
+      "id": "blog-thumb-5",
+      "description": "An HR manager looking stressed at a computer screen showing charts and data",
+      "imageUrl": "https://images.unsplash.com/photo-1554224155-8d04421cd6e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoclMjBkYXRhJTIwb3ZlcmxvYWR8ZW58MHx8fHwxNzY1MjgwMTM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hr data"
     },
     {
       "id": "testimonial-avatar-2",

@@ -7,11 +7,14 @@ import { ArrowRight } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 
 export const metadata = {
-  title: 'Blog | Talent Mole Clone',
+  title: 'Blog | Talent Mole',
   description: 'Insights and articles on talent acquisition, career growth, and the future of work.',
 };
 
 export default function BlogPage() {
+  // Sort posts by date in descending order
+  const sortedPosts = blogPosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
   return (
     <div className="bg-secondary/30">
       <div className="container mx-auto px-4 py-16 md:px-6 md:py-24">
@@ -25,7 +28,7 @@ export default function BlogPage() {
         </div>
 
         <div className="mt-16 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-          {blogPosts.map((post) => {
+          {sortedPosts.map((post) => {
             const image = PlaceHolderImages.find((img) => img.id === post.imageId);
             return (
               <Link href={`/blog/${post.slug}`} key={post.slug} className="group">
