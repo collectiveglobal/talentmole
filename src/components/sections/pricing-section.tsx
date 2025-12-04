@@ -75,8 +75,8 @@ export function PricingSection() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {plans.map((plan) => (
-            <div key={plan.name} className={`rounded-lg shadow-lg p-8 flex flex-col text-center ${plan.primary ? 'bg-gray-800 text-white' : 'bg-white'}`}>
-              <div className={`py-4 rounded-t-lg ${plan.primary ? 'bg-primary' : 'bg-tm-blue'}`}>
+            <div key={plan.name} className={`rounded-lg shadow-lg p-8 flex flex-col text-center ${plan.primary ? 'bg-gray-900 text-white' : 'bg-white'}`}>
+              <div className={`py-4 rounded-t-lg ${plan.primary ? 'bg-gray-800' : 'bg-tm-blue'}`}>
                 <h3 className="text-xl font-bold text-white">{plan.name}</h3>
                 <p className="text-sm text-white/80">{isYearly ? 'Yearly package' : 'Monthly package'}</p>
                  <div className="text-white mt-4">
@@ -90,7 +90,7 @@ export function PricingSection() {
                   <li key={i}>{feature}</li>
                 ))}
               </ul>
-              <Button asChild size="lg" className={`w-full ${plan.primary ? 'bg-white text-primary hover:bg-gray-200' : 'bg-tm-blue text-white hover:bg-tm-blue/90'}`}>
+              <Button asChild size="lg" className={`w-full ${plan.primary ? 'bg-deep-orange text-white hover:bg-deep-orange/90' : 'bg-tm-blue text-white hover:bg-tm-blue/90'}`}>
                 <Link href="#start">{plan.buttonText}</Link>
               </Button>
             </div>
