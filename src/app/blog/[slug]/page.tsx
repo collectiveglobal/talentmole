@@ -3,8 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { blogPosts } from '../data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { ArrowLeft, Calendar, User } from 'lucide-react';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { ArrowLeft } from 'lucide-react';
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const post = blogPosts.find((p) => p.slug === params.slug);
