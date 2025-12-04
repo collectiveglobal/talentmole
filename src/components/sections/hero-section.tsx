@@ -8,8 +8,8 @@ const words = ["screening.", "filtering.", "reading."];
 
 export function HeroSection() {
     const [wordIndex, setWordIndex] = useState(0);
-    const [text, setText] = useState('');
-    const [isDeleting, setIsDeleting] = useState(false);
+    const [text, setText] = useState(words[0]);
+    const [isDeleting, setIsDeleting] = useState(true);
     
     const heroIpad = PlaceHolderImages.find(img => img.id === 'hero-ipad');
     const heroImg1 = PlaceHolderImages.find(img => img.id === 'hero-img-1');
@@ -36,8 +36,11 @@ export function HeroSection() {
             }
         };
 
+        // Delay the start of the animation after the first word is shown
+        const initialDelay = text === words[0] && isDeleting ? 1500 : 0;
+        
         const typingSpeed = isDeleting ? 80 : 150;
-        const timer = setTimeout(type, typingSpeed);
+        const timer = setTimeout(type, typingSpeed + initialDelay);
 
         return () => clearTimeout(timer);
     }, [text, isDeleting, wordIndex]);
