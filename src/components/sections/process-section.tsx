@@ -32,7 +32,7 @@ export function ProcessSection() {
                         <p className="text-lg opacity-80">
                             TalentMole retains a quality pre-boarding experience through candidate personalisation
                         </p>
-                        <Button asChild className="bg-torch-red hover:bg-torch-red/90 text-white rounded-full px-8">
+                        <Button asChild className="bg-deep-orange hover:bg-deep-orange/90 text-white rounded-full px-8">
                             <Link href="#start">Get Started</Link>
                         </Button>
                     </div>
@@ -41,7 +41,7 @@ export function ProcessSection() {
                             {steps.map(step => (
                                 <div key={step.number} className="text-center md:text-left">
                                     <div className="mx-auto md:mx-0 w-16 h-16 rounded-full border-2 border-white/50 flex items-center justify-center mb-4">
-                                        <span className="text-2xl font-bold text-torch-red">{step.number}</span>
+                                        <span className="text-2xl font-bold text-deep-orange">{step.number}</span>
                                     </div>
                                     <h3 className="font-semibold text-lg mb-2">{step.title}</h3>
                                     <p className="text-sm opacity-80">{step.description}</p>
