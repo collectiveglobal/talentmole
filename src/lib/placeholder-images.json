@@ -3,26 +3,44 @@
     {
       "id": "hero-ipad",
       "description": "iPad showing the TalentMole interface",
-      "imageUrl": "https://images.unsplash.com/photo-1659035260002-11d486d6e9f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxpcGFkJTIwaW50ZXJmYWNlfGVufDB8fHx8MTc2NDgzOTAxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://talentmole.com/image/home-1/l1-hero-img-ipad.png",
       "imageHint": "ipad interface"
     },
     {
       "id": "hero-img-1",
-      "description": "Abstract hero image 1",
-      "imageUrl": "https://images.unsplash.com/photo-1644224076179-31d622e21511?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHNoYXBlfGVufDB8fHx8MTc2NDc2NTI1NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract shape"
+      "description": "Man in green circle",
+      "imageUrl": "https://talentmole.com/image/home-1/l1-hero-img-1.png",
+      "imageHint": "man portrait"
     },
     {
       "id": "hero-img-2",
-      "description": "Abstract hero image 2",
-      "imageUrl": "https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHNoYXBlfGVufDB8fHx8MTc2NDc2NTI1NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract shape"
+      "description": "Woman looking up",
+      "imageUrl": "https://talentmole.com/image/home-1/l1-hero-img-2.png",
+      "imageHint": "woman portrait"
     },
     {
       "id": "hero-img-3",
-      "description": "Abstract hero image 3",
-      "imageUrl": "https://images.unsplash.com/photo-1620121478247-ec786b9be2fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHNoYXBlfGVufDB8fHx8MTc2NDc2NTI1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Man looking happy",
+      "imageUrl": "https://talentmole.com/image/home-1/l1-hero-img-3.png",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "hero-dots",
+      "description": "Purple dots pattern",
+      "imageUrl": "https://talentmole.com/image/home-1/hero-dots.png",
+      "imageHint": "dots pattern"
+    },
+    {
+      "id": "hero-shape-2",
+      "description": "Blue abstract shape",
+      "imageUrl": "https://talentmole.com/image/home-1/l1-hero-shape-2.png",
       "imageHint": "abstract shape"
+    },
+    {
+      "id": "hero-shape-3",
+      "description": "Triangle arrow shapes",
+      "imageUrl": "https://talentmole.com/image/home-1/l1-hero-shape-3.png",
+      "imageHint": "arrow shapes"
     },
     {
       "id": "content-woman",
@@ -39,19 +57,19 @@
     {
       "id": "testimonial-1",
       "description": "Portrait of John Doe",
-      "imageUrl": "https://images.unsplash.com/photo-1624395213043-fa2e123b2656?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQ3NTYxMDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://talentmole.com/image/home-1/user-1.png",
       "imageHint": "man portrait"
     },
     {
       "id": "testimonial-2",
       "description": "Portrait of Tiana Dokidis",
-      "imageUrl": "https://images.unsplash.com/photo-1557053910-d9eadeed1c58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NDgwMjY3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://talentmole.com/image/home-1/user-2.png",
       "imageHint": "woman portrait"
     },
     {
       "id": "testimonial-3",
       "description": "Portrait of Talan Bergson",
-      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQ3NjA2MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://talentmole.com/image/home-1/user-3.png",
       "imageHint": "person portrait"
     },
     {

@@ -6,6 +6,9 @@ export function HeroSection() {
     const heroImg1 = PlaceHolderImages.find(img => img.id === 'hero-img-1');
     const heroImg2 = PlaceHolderImages.find(img => img.id === 'hero-img-2');
     const heroImg3 = PlaceHolderImages.find(img => img.id === 'hero-img-3');
+    const heroDots = PlaceHolderImages.find(img => img.id === 'hero-dots');
+    const heroShape2 = PlaceHolderImages.find(img => img.id === 'hero-shape-2');
+    const heroShape3 = PlaceHolderImages.find(img => img.id === 'hero-shape-3');
 
     return (
         <section className="py-20 md:py-32 bg-background relative overflow-hidden">
@@ -19,31 +22,48 @@ export function HeroSection() {
                             Instead of spending hours combing through CVs, watch a showreel & learn candidate qualities faster.
                         </p>
                     </div>
-                    <div className="relative mx-auto w-full max-w-2xl">
+                    <div className="relative mx-auto w-full max-w-2xl h-[450px]">
                         {heroIpad && (
-                            <Image
-                                src={heroIpad.imageUrl}
-                                alt={heroIpad.description}
-                                data-ai-hint={heroIpad.imageHint}
-                                width={550}
-                                height={450}
-                                className="mx-auto"
-                                priority
-                            />
+                             <div className="absolute inset-0 flex items-center justify-center">
+                                <Image
+                                    src={heroIpad.imageUrl}
+                                    alt={heroIpad.description}
+                                    data-ai-hint={heroIpad.imageHint}
+                                    width={550}
+                                    height={412}
+                                    className="z-10"
+                                    priority
+                                />
+                            </div>
                         )}
                         {heroImg1 && (
-                            <div className="absolute top-0 left-0 -translate-x-1/4 -translate-y-1/4 w-32 h-32">
+                            <div className="absolute top-[10%] left-[5%] w-[130px] h-[130px] z-20">
                                 <Image src={heroImg1.imageUrl} alt={heroImg1.description} data-ai-hint={heroImg1.imageHint} layout="fill" objectFit="contain" />
                             </div>
                         )}
                         {heroImg2 && (
-                            <div className="absolute top-1/2 right-0 translate-x-1/4 -translate-y-1/2 w-24 h-24">
-                                <Image src={heroImg2.imageUrl} alt={heroImg2.description} data-ai-hint={heroImg2.imageHint} layout="fill" objectFit="contain" />
+                            <div className="absolute top-[-5%] left-1/2 -translate-x-1/2 w-[150px] h-[150px] z-20">
+                                <Image src={heroImg2.imageUrl} alt={heroImg2.description} data-ai-hint={heroImg2.imageHint} layout="fill" objectFit="cover" className="rounded-full" />
                             </div>
                         )}
                         {heroImg3 && (
-                            <div className="absolute bottom-0 left-1/4 translate-y-1/4 w-40 h-40">
+                            <div className="absolute bottom-[-5%] left-1/2 -translate-x-1/2 w-[140px] h-[140px] z-20">
                                 <Image src={heroImg3.imageUrl} alt={heroImg3.description} data-ai-hint={heroImg3.imageHint} layout="fill" objectFit="contain" />
+                            </div>
+                        )}
+                        {heroDots && (
+                            <div className="absolute top-[30%] left-0 w-[100px] h-[200px]">
+                                <Image src={heroDots.imageUrl} alt={heroDots.description} data-ai-hint={heroDots.imageHint} layout="fill" objectFit="contain" />
+                            </div>
+                        )}
+                         {heroShape2 && (
+                            <div className="absolute top-1/2 -translate-y-1/2 right-[5%] w-[120px] h-[120px] z-0">
+                                <Image src={heroShape2.imageUrl} alt={heroShape2.description} data-ai-hint={heroShape2.imageHint} layout="fill" objectFit="contain" />
+                            </div>
+                        )}
+                         {heroShape3 && (
+                            <div className="absolute bottom-[5%] right-[10%] w-[150px] h-[100px] z-20">
+                                <Image src={heroShape3.imageUrl} alt={heroShape3.description} data-ai-hint={heroShape3.imageHint} layout="fill" objectFit="contain" />
                             </div>
                         )}
                     </div>
