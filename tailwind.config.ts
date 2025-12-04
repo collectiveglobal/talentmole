@@ -51,6 +51,7 @@ export default {
         'tm-blue': 'hsl(var(--tm-blue))',
         'electric-violet': 'hsl(var(--electric-violet))',
         'torch-red': 'hsl(var(--torch-red))',
+        'deep-orange': 'hsl(var(--deep-orange))',
         'golden-tainoi': 'hsl(var(--golden-tainoi))',
         'ice-cold': 'hsl(var(--ice-cold))',
         'anakiwaap': 'hsl(var(--anakiwaap))',

@@ -23,11 +23,11 @@
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 216 79% 45%;
-    --radius: 0.5rem;
     --tm-blue: 216 79% 45%;
     --electric-violet: 260 84% 60%;
     --torch-red: 0 84% 60%;
-    --golden-tainoi: 45 88% 70%;
+    --deep-orange: 15 100% 57%;
+    --golden-tainoi: 45 100% 65%;
     --ice-cold: 158 88% 78%;
     --anakiwaap: 212 100% 83.1%;
   }
@@ -55,7 +55,8 @@
     --tm-blue: 216 79% 45%;
     --electric-violet: 260 84% 60%;
     --torch-red: 0 84% 60%;
-    --golden-tainoi: 45 88% 70%;
+    --deep-orange: 15 100% 57%;
+    --golden-tainoi: 45 100% 65%;
     --ice-cold: 158 88% 78%;
     --anakiwaap: 212 100% 83.1%;
   }
@@ -92,6 +93,9 @@
   }
   .text-torch-red {
     color: hsl(var(--torch-red));
+  }
+  .bg-deep-orange {
+    background-color: hsl(var(--deep-orange));
   }
   .shadow--electric-violet-2-3 {
     box-shadow: 0 4px 6px -1px rgba(102, 51, 204, 0.3), 0 2px 4px -1px rgba(102, 51, 204, 0.18);

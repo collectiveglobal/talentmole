@@ -21,7 +21,7 @@ export function ContentSection1() {
                 className="rounded-lg shadow-lg mx-auto"
               />
             }
-            <Card className="absolute bottom-8 -right-8 bg-primary text-primary-foreground p-4 max-w-xs shadow-xl">
+            <Card className="absolute bottom-8 -right-8 bg-deep-orange text-primary-foreground p-4 max-w-xs shadow-xl">
               <div className="flex items-end">
                 <p className="text-5xl font-bold">68%</p>
                 <ArrowUp className="w-8 h-8 ml-2 mb-1" />
