@@ -39,9 +39,9 @@ export function ProcessSection() {
                     <div className="md:col-span-8">
                         <div className="grid sm:grid-cols-3 gap-8">
                             {steps.map(step => (
-                                <div key={step.number} className="text-center md:text-left">
-                                    <div className="mx-auto md:mx-0 w-16 h-16 rounded-full border-2 border-white/50 flex items-center justify-center mb-4">
-                                        <span className="text-2xl font-bold text-deep-orange">{step.number}</span>
+                                <div key={step.number} className="text-center md:text-left group">
+                                    <div className="mx-auto md:mx-0 w-16 h-16 rounded-full border-2 border-white/50 flex items-center justify-center mb-4 transition-colors duration-300 group-hover:bg-deep-orange group-hover:border-deep-orange">
+                                        <span className="text-2xl font-bold text-deep-orange transition-colors duration-300 group-hover:text-white">{step.number}</span>
                                     </div>
                                     <h3 className="font-semibold text-lg mb-2">{step.title}</h3>
                                     <p className="text-sm opacity-80">{step.description}</p>
