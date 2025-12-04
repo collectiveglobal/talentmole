@@ -30,12 +30,6 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'talentmole.com',
-        port: '',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
         hostname: 'imgs.search.brave.com',
         port: '',
         pathname: '/**',

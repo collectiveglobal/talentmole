@@ -3,49 +3,49 @@
     {
       "id": "hero-ipad",
       "description": "iPad showing the TalentMole interface",
-      "imageUrl": "https://talentmole.com/image/home-1/l1-hero-img-ipad.png",
+      "imageUrl": "/image/home-1/l1-hero-img-ipad.png",
       "imageHint": "ipad interface"
     },
     {
       "id": "hero-img-1",
       "description": "Man in green circle",
-      "imageUrl": "https://talentmole.com/image/home-1/l1-hero-img-1.png",
+      "imageUrl": "/image/home-1/l1-hero-img-1.png",
       "imageHint": "man portrait"
     },
     {
       "id": "hero-img-2",
       "description": "Woman looking up",
-      "imageUrl": "https://talentmole.com/image/home-1/l1-hero-img-2.png",
+      "imageUrl": "/image/home-1/l1-hero-img-2.png",
       "imageHint": "woman portrait"
     },
     {
       "id": "hero-img-3",
       "description": "Man looking happy",
-      "imageUrl": "https://talentmole.com/image/home-1/l1-hero-img-3.png",
+      "imageUrl": "/image/home-1/l1-hero-img-3.png",
       "imageHint": "man portrait"
     },
     {
       "id": "hero-dots",
       "description": "Purple dots pattern",
-      "imageUrl": "https://talentmole.com/image/home-1/hero-dots.png",
+      "imageUrl": "/image/home-1/hero-dots.png",
       "imageHint": "dots pattern"
     },
     {
       "id": "hero-shape-2",
       "description": "Blue abstract shape",
-      "imageUrl": "https://talentmole.com/image/home-1/l1-hero-shape-2.png",
+      "imageUrl": "/image/home-1/l1-hero-shape-2.png",
       "imageHint": "abstract shape"
     },
     {
       "id": "hero-shape-3",
       "description": "Triangle arrow shapes",
-      "imageUrl": "https://talentmole.com/image/home-1/l1-hero-shape-3.png",
+      "imageUrl": "/image/home-1/l1-hero-shape-3.png",
       "imageHint": "arrow shapes"
     },
     {
       "id": "content-woman",
       "description": "Woman looking at a screen",
-      "imageUrl": "https://talentmole.com/image/home-1/l1-contentOne-img-woman.png",
+      "imageUrl": "/image/home-1/l1-contentOne-img-woman.png",
       "imageHint": "woman screen"
     },
     {
@@ -57,31 +57,31 @@
     {
       "id": "testimonial-1",
       "description": "Portrait of John Doe",
-      "imageUrl": "https://talentmole.com/image/home-1/user-1.png",
+      "imageUrl": "/image/home-1/user-1.png",
       "imageHint": "man portrait"
     },
     {
       "id": "testimonial-2",
       "description": "Portrait of Tiana Dokidis",
-      "imageUrl": "https://talentmole.com/image/home-1/user-2.png",
+      "imageUrl": "/image/home-1/user-2.png",
       "imageHint": "woman portrait"
     },
     {
       "id": "testimonial-3",
       "description": "Portrait of Talan Bergson",
-      "imageUrl": "https://talentmole.com/image/home-1/user-3.png",
+      "imageUrl": "/image/home-1/user-3.png",
       "imageHint": "person portrait"
     },
     {
       "id": "logo-dark",
       "description": "TalentMole dark logo",
-      "imageUrl": "https://talentmole.com/image/png/logo-dark.png",
+      "imageUrl": "/image/png/logo-dark.png",
       "imageHint": "company logo"
     },
     {
       "id": "logo-white",
       "description": "TalentMole white logo",
-      "imageUrl": "https://talentmole.com/image/png/logo-white.png",
+      "imageUrl": "/image/png/logo-white.png",
       "imageHint": "company logo"
     },
     {
@@ -105,13 +105,13 @@
     {
       "id": "blog-ai-recruitment",
       "description": "An abstract representation of AI and data streams.",
-      "imageUrl": "https://images.unsplash.com/photo-1727434032765-9c4df88b6e02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhaSUyMGRhdGF8ZW58MHx8fHwxNzY0ODQyNTc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1727434032765-9c4df88b6e02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhaSUyMGRhdGF8ZW58MHx8fHwxNzY0ODQyNTc2fDA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "ai data"
     },
     {
       "id": "testimonial-avatar-2",
       "description": "Avatar of a person for a testimonial",
-      "imageUrl": "https://images.unsplash.com/photo-1521119989659-a83eeee488004?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQ3NjA2MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1521119989659-a83eeee488004?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQ3NjA2MDl8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "person portrait"
     }
   ]

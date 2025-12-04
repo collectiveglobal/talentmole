@@ -5,19 +5,19 @@ import { Target, Timer } from "lucide-react";
 export function AboutSection() {
   const services = [
     {
-      icon: <img src="https://talentmole.com/image/svg/athletics.svg" alt="Hard Analytics Icon" className="absolute -right-2 -bottom-2 w-16 h-16" />,
+      icon: <img src="/image/svg/athletics.svg" alt="Hard Analytics Icon" className="absolute -right-2 -bottom-2 w-16 h-16" />,
       title: "Hard Analytics",
       description: "You still receive the numbers you need to effectively screen in bulk.",
       color: "bg-golden-tainoi",
     },
     {
-      icon: <img src="https://talentmole.com/image/svg/archery-target.svg" alt="Soft Qualities Icon" className="absolute -right-2 -bottom-2 w-16 h-16" />,
+      icon: <img src="/image/svg/archery-target.svg" alt="Soft Qualities Icon" className="absolute -right-2 -bottom-2 w-16 h-16" />,
       title: "Soft Qualities",
       description: "Learn more about candidates through short intro videos that show their true self.",
       color: "bg-ice-cold",
     },
     {
-      icon: <img src="https://talentmole.com/image/svg/money-coins.svg" alt="Time Saved Icon" className="absolute -right-2 -bottom-2 w-16 h-16" />,
+      icon: <img src="/image/svg/money-coins.svg" alt="Time Saved Icon" className="absolute -right-2 -bottom-2 w-16 h-16" />,
       title: "Time Saved",
       description: "Get in tune with the reality of a candidate without spending more time screening.",
       color: "bg-anakiwaap",
