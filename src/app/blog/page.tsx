@@ -20,7 +20,7 @@ export default function BlogPage() {
       <div className="container mx-auto px-4 py-16 md:px-6 md:py-24">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="font-headline text-4xl font-bold tracking-tight text-primary sm:text-5xl">
-            The Future of HR: AI & Recruitment Insights
+            The Future of HR <br /> AI & Recruitment Insights
           </h1>
           <p className="mt-4 text-lg text-muted-foreground">
             Explore the latest trends in HR and AI-powered recruitment. Stay ahead with our expert analysis on the Canadian job market.
