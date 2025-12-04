@@ -11,7 +11,7 @@ export function AboutSection() {
       color: "bg-golden-tainoi",
     },
     {
-      icon: <Target className="w-8 h-8" />,
+      icon: <img src="https://talentmole.com/image/svg/archery-target.svg" alt="Soft Qualities Icon" className="absolute -right-2 -bottom-2 w-16 h-16" />,
       title: "Soft Qualities",
       description: "Learn more about candidates through short intro videos that show their true self.",
       color: "bg-ice-cold",
