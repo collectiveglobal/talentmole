@@ -5,7 +5,7 @@ import { Target, Timer } from "lucide-react";
 export function AboutSection() {
   const services = [
     {
-      icon: <img src="https://talentmole.com/image/svg/athletics.svg" alt="Hard Analytics Icon" className="w-8 h-8" />,
+      icon: <img src="https://talentmole.com/image/svg/athletics.svg" alt="Hard Analytics Icon" className="absolute -right-2 -bottom-2 w-16 h-16" />,
       title: "Hard Analytics",
       description: "You still receive the numbers you need to effectively screen in bulk.",
       color: "bg-golden-tainoi",
@@ -45,7 +45,7 @@ export function AboutSection() {
           {services.map((service, index) => (
             <div key={index} className="text-center md:text-left">
               <div
-                className={`mx-auto md:mx-0 w-20 h-20 rounded-full flex items-center justify-center ${service.color} text-gray-800 mb-6`}
+                className={`relative mx-auto md:mx-0 w-20 h-20 rounded-full flex items-center justify-center ${service.color} text-gray-800 mb-6`}
               >
                 {service.icon}
               </div>
