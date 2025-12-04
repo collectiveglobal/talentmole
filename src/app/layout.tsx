@@ -4,6 +4,14 @@ import {Header} from '@/components/layout/header';
 import {Footer} from '@/components/layout/footer';
 import {Toaster} from '@/components/ui/toaster';
 import { cn } from '@/lib/utils';
+import { Inter } from 'next/font/google';
+
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+});
+
 
 export const metadata: Metadata = {
   title: 'Talent Mole',
@@ -16,14 +24,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="light" style={{scrollBehavior:'smooth'}}>
+    <html lang="en" className={`${inter.variable} light`} style={{scrollBehavior:'smooth'}}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
       </head>
       <body className={cn("font-body bg-background text-foreground antialiased")}>
