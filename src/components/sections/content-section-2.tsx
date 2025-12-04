@@ -27,7 +27,7 @@ export function ContentSection2() {
           <div className="space-y-8">
             <div>
               <p className="text-sm font-semibold uppercase text-electric-violet">Why Choose TalentMole?</p>
-              <h2 className="text-3xl font-bold tracking-tight text-gray-800 sm:text-4xl mt-2">
+              <h2 className="text-4xl font-medium tracking-tighter text-gray-800 mt-2" style={{lineHeight: '1.1'}}>
                 The first AI-driven hiring platform made for soft skills
               </h2>
               <p className="mt-4 text-lg text-muted-foreground">
