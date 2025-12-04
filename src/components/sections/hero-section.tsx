@@ -31,38 +31,38 @@ export function HeroSection() {
                                     data-ai-hint={heroIpad.imageHint}
                                     width={550}
                                     height={412}
-                                    className="z-10"
+                                    className="z-20"
                                     priority
                                 />
                             </div>
                         )}
                         {heroImg1 && (
-                            <div className="absolute top-[10%] left-[5%] w-[130px] h-[130px] z-20">
+                            <div className="absolute top-[10%] left-[5%] w-[130px] h-[130px] z-30">
                                 <Image src={heroImg1.imageUrl} alt={heroImg1.description} data-ai-hint={heroImg1.imageHint} layout="fill" objectFit="contain" />
                             </div>
                         )}
                         {heroImg2 && (
-                            <div className="absolute top-[-5%] left-1/2 -translate-x-1/2 w-[150px] h-[150px] z-20">
+                            <div className="absolute top-[-5%] left-1/2 -translate-x-1/2 w-[150px] h-[150px] z-10">
                                 <Image src={heroImg2.imageUrl} alt={heroImg2.description} data-ai-hint={heroImg2.imageHint} layout="fill" objectFit="cover" className="rounded-full" />
                             </div>
                         )}
                         {heroImg3 && (
-                            <div className="absolute bottom-[-5%] left-1/2 -translate-x-1/2 w-[140px] h-[140px] z-20">
+                            <div className="absolute bottom-[-15%] left-1/2 -translate-x-1/2 w-[140px] h-[140px] z-30">
                                 <Image src={heroImg3.imageUrl} alt={heroImg3.description} data-ai-hint={heroImg3.imageHint} layout="fill" objectFit="contain" />
                             </div>
                         )}
                         {heroDots && (
-                            <div className="absolute top-[30%] left-0 w-[100px] h-[200px]">
+                            <div className="absolute top-[30%] left-0 w-[100px] h-[200px] z-10">
                                 <Image src={heroDots.imageUrl} alt={heroDots.description} data-ai-hint={heroDots.imageHint} layout="fill" objectFit="contain" />
                             </div>
                         )}
                          {heroShape2 && (
-                            <div className="absolute top-1/2 -translate-y-1/2 right-[5%] w-[120px] h-[120px] z-0">
+                            <div className="absolute top-1/2 -translate-y-1/2 right-[5%] w-[120px] h-[120px] z-10">
                                 <Image src={heroShape2.imageUrl} alt={heroShape2.description} data-ai-hint={heroShape2.imageHint} layout="fill" objectFit="contain" />
                             </div>
                         )}
                          {heroShape3 && (
-                            <div className="absolute bottom-[5%] right-[10%] w-[150px] h-[100px] z-20">
+                            <div className="absolute bottom-[5%] right-[10%] w-[150px] h-[100px] z-30">
                                 <Image src={heroShape3.imageUrl} alt={heroShape3.description} data-ai-hint={heroShape3.imageHint} layout="fill" objectFit="contain" />
                             </div>
                         )}
