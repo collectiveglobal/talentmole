@@ -26,7 +26,7 @@ export function Footer() {
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-12">
                     <div className="md:col-span-4">
                         <Link href="/" className="mb-4 inline-block">
-                            <Logo />
+                            <Logo onDarkBg />
                         </Link>
                         <p className="max-w-xs text-sm">
                             Hiring Software That Allows You To Get To Know Candidates Better & Spend Less Time Screening.
@@ -90,3 +90,5 @@ export function Footer() {
         </footer>
     );
 }
+
+    
