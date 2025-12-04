@@ -49,7 +49,8 @@ export function HeroSection() {
                 <div className="grid items-center gap-8 md:grid-cols-2 lg:gap-12">
                     <div className="z-10 space-y-6">
                         <h1 className="text-4xl font-bold tracking-tighter text-gray-800 sm:text-5xl md:text-6xl">
-                            Get to know candidates better & spend less time <span className="text-primary">{text}</span>
+                            Get to know candidates better & spend less time <br />
+                            <span className="text-primary">{text}</span>
                         </h1>
                         <p className="max-w-[600px] text-lg text-muted-foreground">
                             Instead of spending hours combing through CVs, watch a showreel & learn candidate qualities faster.
