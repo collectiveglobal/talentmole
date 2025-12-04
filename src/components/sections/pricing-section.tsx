@@ -76,7 +76,7 @@ export function PricingSection() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {plans.map((plan) => (
             <div key={plan.name} className={`rounded-lg shadow-lg p-8 flex flex-col text-center ${plan.primary ? 'bg-gray-900 text-white' : 'bg-white'}`}>
-              <div className={`py-4 rounded-t-lg ${plan.primary ? 'bg-gray-800' : 'bg-tm-blue'}`}>
+              <div className={`py-4 rounded-t-lg ${plan.primary ? 'bg-deep-orange' : 'bg-tm-blue'}`}>
                 <h3 className="text-xl font-bold text-white">{plan.name}</h3>
                 <p className="text-sm text-white/80">{isYearly ? 'Yearly package' : 'Monthly package'}</p>
                  <div className="text-white mt-4">
