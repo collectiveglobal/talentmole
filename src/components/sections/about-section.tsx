@@ -1,45 +1,62 @@
+import Image from "next/image";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Target, Timer } from "lucide-react";
 
-const services = [
-  {
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="32"
-        height="32"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="w-8 h-8"
-      >
-        <path d="M12.22 2h-4.44l-3 3v10c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-3" />
-        <path d="M14 2v4h4" />
-        <path d="M18 10.5c-1.55-.01-3.05.78-4.2 2.25-1.17 1.48-1.8 3.31-1.8 5.25" />
-        <path d="M22 10.5c-1.55-.01-3.05.78-4.2 2.25-1.17 1.48-1.8 3.31-1.8 5.25" />
-      </svg>
-    ),
-    title: "Hard Analytics",
-    description: "You still receive the numbers you need to effectively screen in bulk.",
-    color: "bg-golden-tainoi",
-  },
-  {
-    icon: <Target className="w-8 h-8" />,
-    title: "Soft Qualities",
-    description: "Learn more about candidates through short intro videos that show their true self.",
-    color: "bg-ice-cold",
-  },
-  {
-    icon: <Timer className="w-8 h-8" />,
-    title: "Time Saved",
-    description: "Get in tune with the reality of a candidate without spending more time screening.",
-    color: "bg-anakiwaap",
-  },
-];
+const athleticsIcon = `
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="32"
+    height="32"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="w-8 h-8"
+  >
+    <path d="M12.22 2h-4.44l-3 3v10c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-3" />
+    <path d="M14 2v4h4" />
+    <path d="M18 10.5c-1.55-.01-3.05.78-4.2 2.25-1.17 1.48-1.8 3.31-1.8 5.25" />
+    <path d="M22 10.5c-1.55-.01-3.05.78-4.2 2.25-1.17 1.48-1.8 3.31-1.8 5.25" />
+  </svg>
+`;
 
 export function AboutSection() {
+  const analyticsIconImage = PlaceHolderImages.find(img => img.id === 'hero-shape-3');
+
+  const services = [
+    {
+      icon: analyticsIconImage ? (
+        <Image
+          src={analyticsIconImage.imageUrl}
+          alt={analyticsIconImage.description}
+          data-ai-hint={analyticsIconImage.imageHint}
+          width={32}
+          height={32}
+          className="object-contain"
+        />
+      ) : (
+        <div dangerouslySetInnerHTML={{ __html: athleticsIcon }} />
+      ),
+      title: "Hard Analytics",
+      description: "You still receive the numbers you need to effectively screen in bulk.",
+      color: "bg-golden-tainoi",
+    },
+    {
+      icon: <Target className="w-8 h-8" />,
+      title: "Soft Qualities",
+      description: "Learn more about candidates through short intro videos that show their true self.",
+      color: "bg-ice-cold",
+    },
+    {
+      icon: <Timer className="w-8 h-8" />,
+      title: "Time Saved",
+      description: "Get in tune with the reality of a candidate without spending more time screening.",
+      color: "bg-anakiwaap",
+    },
+  ];
+
   return (
     <section id="about" className="py-20 md:py-24 bg-background">
       <div className="container mx-auto px-4 md:px-6">
